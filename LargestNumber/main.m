@@ -10,8 +10,32 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSArray *allNumbers = @[@864, @864, @7.12, @123, @3.14];
+        NSNumber *largestNum = @0;
+        for (NSNumber *comparedNum in allNumbers)
+        {
+            if ([comparedNum isGreaterThan:largestNum])
+            {
+                NSLog(@"%@ is larger than %@", comparedNum, largestNum );
+                largestNum = comparedNum;
+                
+            }
+            else
+            {
+                NSLog(@"%@ is not larger than %@", comparedNum, largestNum );
+            }
+        }
+            NSLog(@"%@ is the largest number", largestNum );
+        }
+        return 0;
     }
-    return 0;
-}
+
+//NSLog(@"%@ is the largest number", largestNumber );
+//NSNumber *largestNumber = @0;
+//for (NSNumber *number in unsortedarray) {
+//    if ([number isGreaterThan:largestNumber]) {
+//        largestNumber = number;
+//    }
+//}
+//NSLog(@"%@ is the largest number", largestNumber );
+
