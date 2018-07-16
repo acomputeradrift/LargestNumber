@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DE3D5FE20F953DE004938BC /* ArrayUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3D5FD20F953DE004938BC /* ArrayUtility.m */; };
 		7DEA0F7120F6761700E43A38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEA0F7020F6761700E43A38 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7DE3D5FC20F953DE004938BC /* ArrayUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayUtility.h; sourceTree = "<group>"; };
+		7DE3D5FD20F953DE004938BC /* ArrayUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayUtility.m; sourceTree = "<group>"; };
 		7DEA0F6D20F6761700E43A38 /* LargestNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LargestNumber; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DEA0F7020F6761700E43A38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				7DEA0F7020F6761700E43A38 /* main.m */,
+				7DE3D5FC20F953DE004938BC /* ArrayUtility.h */,
+				7DE3D5FD20F953DE004938BC /* ArrayUtility.m */,
 			);
 			path = LargestNumber;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE3D5FE20F953DE004938BC /* ArrayUtility.m in Sources */,
 				7DEA0F7120F6761700E43A38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
